@@ -1,0 +1,52 @@
+.title{
+    font-weight: bold;
+    font-size: 20px;
+    color: azure;
+
+    margin-left: 100px;
+}
+.slide-image{
+    display: flex;
+    margin: 50px;
+}
+.slide-image img{
+    width:120px;
+    height:120px;
+    display: flex;
+    margin: auto;
+    border-radius: 10px;
+    padding: 10px;
+}
+.slide-image img:hover{
+    transform: scale(1.25); 
+     opacity: .8;
+    box-shadow: 5px  black;
+    z-index : 1;
+    border-radius: 20px;
+    border:5px solid black;
+}
+ .a1{
+    position: absolute;
+    margin-left: 1250px;
+    margin-top: -30px;
+    background-color: none;
+    color: brown;
+} 
+.a1:hover{
+    background-color: red;
+    border-radius: 15px;
+    width: 40px;
+}
+.sound
+{
+    position: absolute;
+    margin-left: 40px;
+    background-color: white;
+    color:grey;
+    border-radius: 50%;
+    margin-top: 50px;
+    font-size: 20px;
+}
+.sound:hover{
+    width: 40px;
+}

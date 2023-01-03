@@ -1,0 +1,10 @@
+.footer{
+    /* background-color: rgba(0, 0, 0, 0.358); */
+    height: 300px;
+    margin: 100px;
+}
+.footer__sub
+{
+    color: gray;
+    font-size: 12px;
+}

@@ -1,0 +1,129 @@
+
+.App{
+    color: white;
+background-image: linear-gradient(rgba(0, 0, 0, 0.927),rgba(0, 0, 0, 0.87));
+}
+
+.Header{
+    display: flex;
+    width:100%;
+    height: 90px;
+    color:white; 
+    position: sticky;
+    top:0;
+    z-index: 20;
+    transition-property: transform;
+    transition-timing-function: cubic-bezier(.4,0,.2,1);
+    transition-duration: .3s;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.251),rgba(128, 128, 128, 0.342));
+    
+}
+.menu
+{
+    margin-left: -20px;
+}
+.Header-left ul{
+    display: flex;
+    padding: 5px;
+    margin-left: 10px;
+    font-size: 15px;
+    font-weight: bolder;
+     text-decoration: none;
+    
+}
+.Header-left ul li{
+    margin:20px;
+    list-style-type: none;
+   
+}
+.Header-right {
+    display: flex;
+    padding: 5px;
+    margin:20px;
+    font-size: 20px;
+    margin-left: 100px;
+    margin-top: 10px;
+}
+.search{
+    background-color: rgba(31, 31, 33, 0.361);;
+    border: none;
+    margin-left: 200px;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.6),rgba(128, 128, 128, 0.48));  
+    width: 500px;
+    height: 50px;
+    color:white;
+    border-radius: 10px;
+    border: rgba(128, 128, 128, 0.596);
+    margin-left: 30px;
+    border-style: solid;
+}
+.right{
+    position:relative;
+   
+}
+.icon{
+    margin-left: -30px;
+    height: 20px;
+   
+}
+.btn{
+    padding: 45px;
+}
+.serch-icon{
+   margin-left: 30px;
+}
+.last{
+    margin-left: 200px;
+    margin: 50px;
+    font-size: 20px;
+    display: flex;
+}
+.logo {
+    margin:20px;
+    font-size: x-large;
+}
+.logo1
+{
+    margin:20px;
+    font-size: x-large;
+}
+.imageone{
+    width: 60px;
+    margin-left: -10px;
+    border-radius: 50%;
+}
+.W{
+    color:red;
+    margin-top: -30px;
+    margin-left: 60px;
+}
+.P
+{
+    margin-left: 120px;
+    margin-top: -33px
+}
+  .profilemenu{
+list-style-type: none;
+flex-direction: column;
+z-index: 999;
+position:absolute;
+right: 30px;
+margin-top: 30px;
+font-size: 15px;
+background-color: rgb(31, 31, 33) ;
+display: block;
+height:200px;
+width: 200px;
+line-height: 30px;
+border-radius: 5px;
+  }
+.profilemenu li{
+text-align: center;
+margin-left:-5px;
+}
+.profilemenu :hover{
+background-color: aliceblue;
+color: black;
+}
+
+

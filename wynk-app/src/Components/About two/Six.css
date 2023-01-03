@@ -1,0 +1,24 @@
+.Six 
+{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    padding: 5px;
+    margin:20px;
+    font-size: 20px;
+    margin-left: 100px;
+    margin-top: 10px;
+    list-style-type: none;
+    
+}
+.Six__subdiv{
+    width:300px;
+    /* height: 100vh; */
+   padding: 10px;
+   font-size: 15px;
+   color: grey;
+}
+.h6
+{
+    color: white;
+}
