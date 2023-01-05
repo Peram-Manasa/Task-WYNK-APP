@@ -1,10 +1,13 @@
-import React from "react";
+import React,{useContext} from "react";
+import { ThemChanger } from "../../Usetheme/Theme";
 import "./About.scss"
 function About() {
+  const [data,setData]=useContext(ThemChanger)
   return (
     <>
-      <div className="About">
-        <h1>About Wynk Music</h1>
+      
+      <div className="About" style={{backgroundColor:data}}>
+        <h1 onClick={()=>setData('green')}>About Wynk Music</h1>
         <img className="About__Q" src="quotation.jpg.png" alt="" />
         Wynk Music is a complete package that allows you to stream music online,
         set hellotunes, listen to podcasts, download MP3 music offline, and much

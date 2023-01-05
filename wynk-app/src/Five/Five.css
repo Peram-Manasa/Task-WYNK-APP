@@ -1,38 +1,49 @@
 
 .Five
 {
- 
+    position: relative;
     height: 100px;
-    width: auto;
-    margin:20px;
+    margin:40px;
     border-radius:10px;
     padding: 20px;
-    background-color:rgba(128, 128, 128, 0.155);
+    background-color:rgba(15, 10, 10, 0.155);
     background-image: linear-gradient(grey);
 
 }
 .Fifthimage
 {
-    position: relative;
-    margin-left: 20px;
+    position: absolute;
+    left: 0;
     height:80px;
     width: 80px;
 }
 .Fiveh
 {
     margin-left: 100px;
-    margin-top:-70px
+    margin-top:-70px;
+    position: relative;
+    top: 60px;
+    right: 400px;
+    
 }
 .fivep
 {
     margin-left: 100px;
     margin-top:-10px;
+    position: relative;
+    top: 70px;
+    right: 380px;
+
+    
 }
 .sixthimage
 {
    position: absolute;
-   margin-left: 800px;
-   margin-top: -100px;
+   top:10px;
+
+   right: 250px;
+   /* margin-left: 800px;
+   margin-top: -100px; */
   border-radius: 10px;
     height: 50px;
     width: 200px;
@@ -41,8 +52,12 @@
 .sixthimage1
 {
     position: absolute;
-    margin-left: 1000px;
-    margin-top: -100px;
+    top:10px;
+
+    right: 50px;
+
+    /* margin-left: 1000px;
+    margin-top: -100px; */
    border-radius: 10px;
      height: 50px;
      width: 200px;
@@ -53,6 +68,6 @@
     background: black;
     color:white;
     margin: auto;
-
+    
 }
 

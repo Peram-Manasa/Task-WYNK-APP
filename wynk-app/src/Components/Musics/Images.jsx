@@ -9,7 +9,7 @@ function Images() {
 
     
   return (
-    <>{data1?.map((x)=>(<div className="image7"><img src={x.img} alt={x.title}/></div>))}</>
+    <>{data1?.map((x)=>(<div className="image7"><img src={x.img} alt={x.title}/> {}x.title</div>))}</>
 
   )
 }

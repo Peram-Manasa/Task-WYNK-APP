@@ -1,48 +1,38 @@
 import React from 'react';
 import {BrowserRouter,Routes,Route} from 'react-router-dom';
-import Six from './Components/About two/Six';
-import About from './Components/About/About';
-import Footer from './Components/Footer/Footer';
+
 import Header from './Components/Header/Header';
-import Slideshow from './Components/Slider/Slider';
-import Songs from './Components/Songs/Songs';
-import Songsone from './Components/Songs/Songsone';
-import Songsthree from './Components/Songs/Songsthree';
-import SongsTwo from './Components/Songs/SongsTwo';
-import Five from './Five/Five';
+
 import LandingPage from '.././src/Pages/LandingPage';
-
-
-
-
+import './App.css';
+import { ThemeContextProvider } from './Usetheme/ThemeContextProvider';
+import {Them} from '../src/Usetheme/Theme'
 function App() {
+  
 
   return (
-    
    
+   <ThemeContextProvider>
     <div className="App">
-      
+    <Them>
    < BrowserRouter>
   <Header/>
+
   <Routes>
   <Route path='/' element={<LandingPage/>}/>
     <Route path='/LandingPage' element={<LandingPage/>}/>
     </Routes> 
-    {/* <Slideshow/>
-      <Songs/>
-      <Songsone/>
-      <Songsone/>
-      <SongsTwo/>
-      <SongsTwo/>
-      <Songsthree/>
-      <About/>
-      <Five/>
-      <Six/>
-      <Footer/> */}
     </BrowserRouter>
+    </Them>
     </div>
-    
-  );
-}
+    </ThemeContextProvider>
+   
+ )
+ }
 
-export default App
+ export default App;
+
+
+
+
+ 

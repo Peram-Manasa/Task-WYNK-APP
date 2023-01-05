@@ -1,7 +1,7 @@
 
 .App{
     color: white;
-background-image: linear-gradient(rgba(0, 0, 0, 0.927),rgba(0, 0, 0, 0.87));
+background-image: linear-gradient(rgba(0, 0, 0, 0.927),rgba(0, 0, 0, 0.876));
 }
 
 .Header{
@@ -9,32 +9,36 @@ background-image: linear-gradient(rgba(0, 0, 0, 0.927),rgba(0, 0, 0, 0.87));
     width:100%;
     height: 90px;
     color:white; 
-    position: sticky;
+    /* position: sticky; */
     top:0;
     z-index: 20;
     transition-property: transform;
     transition-timing-function: cubic-bezier(.4,0,.2,1);
     transition-duration: .3s;
-    background-image: linear-gradient(rgba(0, 0, 0, 0.251),rgba(128, 128, 128, 0.342));
+    background-image: linear-gradient(rgba(0, 0, 0, 0.066),rgba(128, 128, 128, 0.342));
     
 }
 .menu
 {
     margin-left: -20px;
 }
+.deco
+{
+    text-decoration: none;
+    color: white;
+    font-size: 15px;
+}
 .Header-left ul{
     display: flex;
     padding: 5px;
     margin-left: 10px;
     font-size: 15px;
-    font-weight: bolder;
-     text-decoration: none;
-    
+    font-weight: bolder;   
 }
 .Header-left ul li{
     margin:20px;
     list-style-type: none;
-   
+  
 }
 .Header-right {
     display: flex;
@@ -80,27 +84,28 @@ background-image: linear-gradient(rgba(0, 0, 0, 0.927),rgba(0, 0, 0, 0.87));
 }
 .logo {
     margin:20px;
-    font-size: x-large;
+    font-size:x-large;
 }
 .logo1
 {
-    margin:20px;
+    /* margin-left:10px; */
+    margin-top: 20px;
     font-size: x-large;
 }
 .imageone{
     width: 60px;
-    margin-left: -10px;
-    border-radius: 50%;
+    margin-right: 140px;
+    border-radius: 80px;
 }
 .W{
     color:red;
-    margin-top: -30px;
-    margin-left: 60px;
+    margin-top: -40px;
+    margin-right: 20px;
 }
 .P
 {
-    margin-left: 120px;
-    margin-top: -33px
+    margin-left: 110px;
+    margin-top: -32px
 }
   .profilemenu{
 list-style-type: none;
